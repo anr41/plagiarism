@@ -1,0 +1,11 @@
+int main(int argc, char **argv){
+FILE *fp;
+fp = fopen(argv[1], "r");
+for (int i = 0; i < argv[1].length; i = i + 1){
+if (int j == 3){
+printf(fread(&buffer,1,1,argv[1]) + "\n");
+j = 1;}
+else{
+printf(fread(&buffer, 1, 1, argv[1]) + ".");
+j = i + 1;}}
+fclose(fp);}

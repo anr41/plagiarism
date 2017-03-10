@@ -1,0 +1,14 @@
+int main(int argc, *argv[]){
+FILE *fp;
+fp = fopen(argv[], "r");
+for ( int i = 0; i < argv[].length; i = i + 1){
+if (j == 2){
+printf(fread(&buffer,1,1,argv[]));
+fread(&buffer,1,1,argv[]);
+printf("\n");
+j = 0;}
+else{
+printf(fread(&buffer,1,1,argv[]) + ".");
+j = j + 1;}}
+fclose(fp);
+return 0;}
